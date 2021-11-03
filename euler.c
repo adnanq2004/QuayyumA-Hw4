@@ -13,7 +13,7 @@ int problem1() {
     }
   }
 
-  printf("%d\n", sum);
+  printf("sum of all multiples of 3 and 5 below 1000: %d\n", sum);
   return 0;
 
 }
@@ -35,7 +35,7 @@ int problem2() {
   for (int i = 1; fibonnaci(i) <= 4000000; i++) {
     sum += fibonnaci(i);
   }
-  printf("%d\n", sum);
+  printf("sum of even-valued fibonacci terms: %d\n", sum);
   return 0;
 
 }
@@ -58,7 +58,7 @@ int problem5() {
       reached = number;
     }
   }
-  printf("%d\n", reached);
+  printf("finds the smallest number divisible by all numbers from 1 to 20: %d\n", reached);
   return 0;
 
 }
@@ -77,7 +77,7 @@ int problem6() {
   sumofsquares = sumofsquares * sumofsquares;
 
   int difference = sumofsquares - squareofsums;
-  printf("%d\n", difference);
+  printf("difference between sum of squares and square of sum: %d\n", difference);
   return 0;
 
 }
